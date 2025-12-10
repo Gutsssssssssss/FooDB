@@ -1,0 +1,67 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# IntelliJ specific workspace file
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+
+# IntelliJ generated files
+out/
+
+# Plugins
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries/
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+build/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.cache
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/   # 빌드 스크립트만 허용할 때
+*.snupkg
+*.cache/
+
+# Logs
+*.log
+
+# Test results
+TestResult*/
+TestResults/
+*.coverage
+*.coveragexml
+
+# Auto-generated files
+Generated*/ 
+*.g.cs
+*.g.i.cs
+*.designer.cs
+*.ide/
+
+# ASP.NET specifics
+App_Data/
