@@ -1,0 +1,14 @@
+C:\Workspace\FooDB\FooDB\bin\Debug\net8.0\FooDB.exe
+C:\Workspace\FooDB\FooDB\bin\Debug\net8.0\FooDB.deps.json
+C:\Workspace\FooDB\FooDB\bin\Debug\net8.0\FooDB.runtimeconfig.json
+C:\Workspace\FooDB\FooDB\bin\Debug\net8.0\FooDB.dll
+C:\Workspace\FooDB\FooDB\bin\Debug\net8.0\FooDB.pdb
+C:\Workspace\FooDB\FooDB\obj\Debug\net8.0\FooDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\FooDB\FooDB\obj\Debug\net8.0\FooDB.AssemblyInfoInputs.cache
+C:\Workspace\FooDB\FooDB\obj\Debug\net8.0\FooDB.AssemblyInfo.cs
+C:\Workspace\FooDB\FooDB\obj\Debug\net8.0\FooDB.csproj.CoreCompileInputs.cache
+C:\Workspace\FooDB\FooDB\obj\Debug\net8.0\FooDB.dll
+C:\Workspace\FooDB\FooDB\obj\Debug\net8.0\refint\FooDB.dll
+C:\Workspace\FooDB\FooDB\obj\Debug\net8.0\FooDB.pdb
+C:\Workspace\FooDB\FooDB\obj\Debug\net8.0\FooDB.genruntimeconfig.cache
+C:\Workspace\FooDB\FooDB\obj\Debug\net8.0\ref\FooDB.dll
