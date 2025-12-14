@@ -37,6 +37,10 @@ public class BlockStorage : IBlockStorage
         throw new NotImplementedException();
     }
     
+    /*
+     * create a new block and allocate it on disk.
+     * use when there is no free block available.
+     */
     public IBlock CreateNew()
     {
         if ((this.stream.Length % blockSize) != 0) throw new DataMisalignedException("Unexpected stream length: " + this.stream.Length);

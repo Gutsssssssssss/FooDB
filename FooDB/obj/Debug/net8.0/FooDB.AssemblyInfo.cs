@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FooDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8200b131139f2099b023301779ab649eac3d3830")]
 [assembly: System.Reflection.AssemblyProductAttribute("FooDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FooDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

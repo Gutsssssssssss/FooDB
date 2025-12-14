@@ -1,5 +1,10 @@
 namespace FooDB;
 
+/*
+ * Block has a portion of disk data (first sector) in memory.
+ * Block is a tunnel to read/write disk data directly.
+ * 
+ */
 public class Block : IBlock
 {
     private readonly byte[] firstSector;
@@ -48,9 +53,38 @@ public class Block : IBlock
     {
         throw new NotImplementedException();
     }
+
+    protected virtual void OnDisposed(EventArgs e)
+    {
+        Disposed?.Invoke(this, e);
+    }
     
     public void Dispose()
     {
-        throw new NotImplementedException();
+        Dispose();
+        GC.SuppressFinalize(this);
+    }
+
+    protected virtual void Dispose(bool disposing)
+    {
+        if (disposing && !isDisposed)
+        {
+            isDisposed = true;
+
+            if (isFirstSectorDirty)
+            {
+                this.stream.Position = (Id * storage.BlockSize);
+                this.stream.Write(firstSector, 0, 4096);
+                this.stream.Flush();
+                isFirstSectorDirty = false;
+            }
+
+            OnDisposed(EventArgs.Empty);
+        }
+    }
+
+    ~Block()
+    {
+        Dispose(false);
     }
 }
